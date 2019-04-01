@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="tictactoe">
+    <output-path>$PROJECT_DIR$/out</output-path>
+    <root id="archive" name="tictactoe.jar">
+      <element id="archive" name="tictactoe.jar">
+        <element id="module-output" name="tictactoe" />
+        <element id="directory" name="META-INF">
+          <element id="file-copy" path="$PROJECT_DIR$/out/production/tictactoe/com/company/META-INF/MANIFEST.MF" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/src/com/company/META-INF/MANIFEST.MF" />
+      </element>
+    </root>
+  </artifact>
+</component>
